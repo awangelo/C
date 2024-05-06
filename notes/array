@@ -1,0 +1,8 @@
+array size = sizeof(array)/ sizeof(array[0])
+	     tamanho em bytes / tamanho de um elemento
+
+string.h:
+
+strcpy(array[i], x)
+
+puts(): adciona \n, mais simples que printf() e sem formatacao
