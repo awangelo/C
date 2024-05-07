@@ -1,0 +1,9 @@
+fgets():
+Le uma linha ate o \n.
+
+Ex:
+char texto[100];
+fgets(texto, sizeof(textox), stdin);
+
+getchar():
+Le apenas um charactere.
