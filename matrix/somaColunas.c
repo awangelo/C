@@ -15,7 +15,7 @@ int main()
             res[j] += mat1[i][j];
         }
     }
-    system("clear");
+    system("cls");
     printf("Print da Matriz:\n");
     for (i = 0; i < 4; i++)
     {

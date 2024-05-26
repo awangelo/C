@@ -16,7 +16,7 @@ int main()
         }
         total += res[i];
     }
-    system("clear");
+    system("cls");
     printf("Print da Matriz:\n");
     for (i = 0; i < 4; i++)
     {

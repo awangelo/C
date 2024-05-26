@@ -16,7 +16,7 @@ int main()
         }
         total += res[i];
     }
-    system("clear");
+    system("cls");
     printf("Print da Matriz:\n");
     for (i = 0; i < 4; i++)
     {
@@ -26,13 +26,10 @@ int main()
         }
         printf("\n");
     }
-
-    printf("Maior media das linhas: ");
+    
+    printf("Media de cada linha: ");
     for (i = 0; i < 4; i++)
     {
-        if (res[i] >= (float)total / 4)
-        {
-            printf("Linha %d, valor: %d\n", i + 1, (float)res[i] / 5);
-        }
+        printf("%.2f ", (float)res[i] / 5);
     }
 }
